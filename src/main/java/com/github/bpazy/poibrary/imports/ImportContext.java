@@ -1,7 +1,7 @@
 package com.github.bpazy.poibrary.imports;
 
 import com.github.bpazy.poibrary.Title;
-import com.github.bpazy.poibrary.reflection.Reflections;
+import com.github.bpazy.reflections.Reflections;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import lombok.Getter;

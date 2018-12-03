@@ -6,7 +6,7 @@
 
     <groupId>com.github.bpazy</groupId>
     <artifactId>poibrary</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <licenses>
         <license>
@@ -33,6 +33,11 @@
     </parent>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.bpazy</groupId>
+            <artifactId>reflections</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
