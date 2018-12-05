@@ -29,7 +29,7 @@ public class ImportContext {
     private List<Object> resultList = Lists.newArrayList();
 
     @SneakyThrows
-    public void importExcel(InputStream inputStream, Class target, ImportParams params) {
+    public void importExcel(InputStream inputStream, Class<?> target, ImportParams params) {
         Map<String, Field> titleFieldMap = getTitleFieldMap(target);
 
         XSSFWorkbook wb = new XSSFWorkbook(inputStream);

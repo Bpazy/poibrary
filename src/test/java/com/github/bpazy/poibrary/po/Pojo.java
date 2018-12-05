@@ -1,4 +1,4 @@
-package com.github.bpazy.poibrary.imports;
+package com.github.bpazy.poibrary.po;
 
 import com.github.bpazy.poibrary.Title;
 import lombok.Data;

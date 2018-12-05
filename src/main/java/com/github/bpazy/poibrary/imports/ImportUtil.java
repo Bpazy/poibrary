@@ -10,7 +10,7 @@ import java.io.InputStream;
 @Slf4j
 public class ImportUtil {
 
-    public static ImportContext importExcel(InputStream inputStream, Class type, ImportParams params) {
+    public static ImportContext importExcel(InputStream inputStream, Class<?> type, ImportParams params) {
         ImportContext context = new ImportContext();
         context.importExcel(inputStream, type, params);
         return context;

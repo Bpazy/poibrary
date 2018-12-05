@@ -1,5 +1,6 @@
 package com.github.bpazy.poibrary.imports;
 
+import com.github.bpazy.poibrary.po.Pojo;
 import lombok.SneakyThrows;
 import org.junit.Test;
 
@@ -20,5 +21,12 @@ public class ImportUtilTest {
 
         ImportContext context = ImportUtil.importExcel(new FileInputStream(new File(testXlsxUrl.toURI())), Pojo.class, new ImportParams());
         System.out.println(context.getResultList());
+    }
+
+
+    @Test
+    @SneakyThrows
+    public void exportExcel() {
+        String folder = System.getProperty("java.io.tmpdir");
     }
 }
