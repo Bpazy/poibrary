@@ -72,7 +72,7 @@ public class ImportContext {
 
     private Map<String, Field> getTitleFieldMap(Class target) {
         Map<String, Field> titleFieldMap = Maps.newHashMap();
-        Set<Field> allFields = Reflections.getAllFields(target, Title.class);
+        Set<Field> allFields = Reflections.getAnnotatedFields(target, Title.class);
         for (Field field : allFields) {
             titleFieldMap.put(field.getName(), field);
         }
